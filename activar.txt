@@ -1,8 +1,21 @@
 myvenv\Scripts\activate
-
 python manage.py runserver
-
 python manage.py makemigrations celuzone
 python manage.py migrate celuzone
-
 python manage.py createsuperuser
+
+
+Git
+git status
+git add --all .
+git status
+git commit -m "comentario" 
+git push 
+
+
+Línea de comandos de PythonAnywhere
+$ cd ~/<your-pythonanywhere-domain>.pythonanywhere.com
+$ git pull
+
+
+
