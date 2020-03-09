@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'celuzone.apps.CeluzoneConfig',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [

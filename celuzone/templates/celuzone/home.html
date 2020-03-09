@@ -1,0 +1,80 @@
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="favicon.ico">
+
+          {% load bootstrap4 %}
+          {# CSS Bootstrap #}
+          {% bootstrap_css %}
+          {% bootstrap_javascript jquery='full' %}
+
+    </head>
+     
+<body>
+
+<div class="container">
+
+    <table class="table table-striped">
+
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nº Orden</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Marca</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Problema</th>
+            <th scope="col">Recepcion</th>
+            <th scope="col">Reparacion</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Eliminar</th>
+        </tr>
+        </thead>
+
+        <tbody>
+           
+            
+            <tr>
+
+                <td> 1 </td>
+                <td>Leandro Tonello</td>
+                <td>1122538399</td>
+                <td>Samsung</td>
+                <td>SM-950</td>
+                <td>Reparacion de antena</td>
+                <td class="text-center">2/6</td>
+                <td class="text-center">3/6</td>
+
+                <td>
+						<button class="btn btn-warning btn-sm" data-toggle="modal" data-target="#modalEditar" >
+							<span>Editar</span>
+						</button>
+                </td>
+                <td>
+                    <a  href="#">
+                            <button class="btn btn-danger btn-sm">
+							    Eliminar
+						    </button>
+                    </a>
+
+
+                </td>
+            </tr>
+       
+        </tbody>
+    </table>
+    <a href="#">
+        <button class="btn btn-success "  >
+              Agregar Nuevo
+        </button>
+    </a>
+
+</div>
+
+
+</body>
+</html>
