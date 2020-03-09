@@ -1,0 +1,8 @@
+myvenv\Scripts\activate
+
+python manage.py runserver
+
+python manage.py makemigrations celuzone
+python manage.py migrate celuzone
+
+python manage.py createsuperuser
